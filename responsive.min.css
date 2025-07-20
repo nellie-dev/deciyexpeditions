@@ -1,0 +1,286 @@
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+    #callback .modal-dialog {
+        width:700px;
+        min-width: 700px;
+        margin: 8rem auto 0
+    }
+
+    #callback .modal-dialog textarea {
+        height: 75px
+    }
+
+    #callback .modal-body .form-group.col-sm-8 {
+        flex: 0 0 52%
+    }
+
+    #callback .modal-dialog button[type=submit],#callback .modal-dialog .btn-cancel {
+        margin: 0 10px 10px 0
+    }
+
+    .section {
+        position: relative;
+        padding: 5rem 0
+    }
+
+    .navbar-light .navbar-toggler::before {
+        display: none
+    }
+
+    .navbar-collapse {
+        background-color: transparent;
+        margin-top: 0;
+        padding: 0
+    }
+
+    .navbar-collapse .nav-item {
+        display: inline-block;
+        width: auto;
+        text-align: center;
+        margin-bottom: 0
+    }
+
+    .navbar-collapse .nav-item .nav-link {
+        display: inline-block;
+        color: #FFF!important;
+        font: .8rem/1.5rem 'CircularBook',Arial,sans-serif;
+        text-align: left;
+        padding: .4rem .7rem;
+        margin: 1.5rem .2rem
+    }
+
+    .sticky-wrapper.is-sticky .navbar-collapse {
+        margin: 0
+    }
+
+    .sticky-wrapper.is-sticky .navbar-collapse .nav-item .nav-link {
+        color: #231F20!important;
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem
+    }
+
+    .navbar-collapse .nav-item .nav-link.is-btn {
+        border: 1px solid rgba(255,255,255,.6);
+        border-radius: 30px;
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+        margin-left: .4rem;
+        margin-right: .4rem
+    }
+
+    .navbar-collapse .nav-item .dropdown-item {
+        color: #000!important;
+        font-size: .8rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        text-transform: uppercase
+    }
+
+    .navbar-collapse .nav-item .dropdown-item:focus,.navbar-collapse .nav-item .dropdown-item:hover {
+        color: #FFF!important;
+        background-color: #000000
+    }
+
+    .navbar-collapse .nav-item .dropdown-toggle::after {
+        display: none
+    }
+
+    .navbar-collapse .nav-item.active .nav-link,.navbar-collapse .nav-item .nav-link:hover {
+        border-color: #FFF
+    }
+
+    .navbar-collapse .nav-item .nav-link:hover,.navbar-collapse .nav-item.active .nav-link {
+        color: #FFF!important
+    }
+
+    .navbar-brand {
+        position: relative;
+        top: 10px;
+        padding: 0;
+        margin: 0 0 3px;
+        background-size: 250px 140px;
+        background-position: 0 0;
+        width: 250px;
+        height: 70px
+    }
+
+    .sticky-wrapper.is-sticky .navbar-brand {
+        position: relative;
+        top: 0;
+        background-size: 213px 120px;
+        background-position: 0 -60px;
+        width: 213px;
+        height: 60px
+    }
+
+    .carousel .carousel-item {
+        height: 100vh;
+        max-height: 850px
+    }
+
+    .carousel-item img {
+        height: 100vh;
+        max-height: 850px;
+        width: auto
+    }
+
+    .slide-overlay h1>p {
+        margin: -15px 0 25px -25px;
+        padding: 0 0 0 25px;
+        font-size: 3rem;
+        line-height: 3.4rem
+    }
+
+    .slide-overlay b>p {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        margin-top: 1.5rem
+    }
+
+    .carousel-social {
+        display: inline-block;
+        position: absolute;
+        bottom: 100px;
+        left: 210px;
+        -ms-flex-pack: start;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: row;
+        margin-right: auto;
+        margin-left: 0;
+        margin-bottom: 0;
+        width: auto;
+        height: auto;
+        z-index: 999
+    }
+
+    .carousel-social a>i {
+        font-size: 30px;
+        margin: 0 .8rem 0 0
+    }
+
+    .carousel-indicators {
+        right: 0!important;
+        bottom: 100px!important;
+        left: 100px!important;
+        -ms-flex-pack: start;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: row;
+        margin-right: auto;
+        margin-left: 0;
+        margin-bottom: 0;
+        width: 85%;
+        height: auto
+    }
+
+    .carousel-indicators li {
+        width: 100px;
+        height: 100px;
+        border-radius: 5px;
+        margin: 0 8px
+    }
+
+    .carousel-indicators li.active {
+        margin: 0 30px;
+        transform: scale(1.4);
+        -webkit-transform: scale(1.4)
+    }
+
+    .jumbotron img {
+        width: 100%;
+        max-width: 100%;
+        height: auto
+    }
+
+    .packages-listing {
+        padding: 3rem 5rem
+    }
+
+    .packages-listing .section-title h3 {
+        font-size: 2rem
+    }
+
+    .packages-listing .section-footer .btn-link {
+        margin-bottom: 0
+    }
+
+    .articles-preview .preview-lt {
+        padding: 3rem 8rem
+    }
+
+    .articles-preview .preview-rt .row-eq-height {
+        margin: 0 5rem 0 -6rem;
+        padding: 10px 0
+    }
+
+    .testimonials .col-12 {
+        padding: 4rem 0;
+        margin: 3rem 0
+    }
+
+    .testimonials .testimonial-lt {
+        padding: 5rem 8rem
+    }
+
+    .testimonials .testimonial-rt .test-wrapper {
+        margin: 0 2rem 0 -5rem
+    }
+
+    .testimonials .tripadvisor>img {
+        display: block;
+        height: 70px;
+        width: auto;
+        margin: 0
+    }
+
+    .subscribe {
+        padding: 3rem 0
+    }
+
+    .subscribe .subscribe-form p {
+        max-width: 90%;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        margin-bottom: 0
+    }
+
+    footer {
+        padding: 2rem 0
+    }
+
+    footer .ftr-top {
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row
+    }
+
+    footer .ftr-top li {
+        display: inline-block;
+        width: auto;
+        margin-right: 15px
+    }
+
+    footer .ftr-top .navbar .nav-link {
+        font-size: 11px;
+        line-height: 14px;
+        padding: .2rem 0
+    }
+
+    footer .ftr-top .ftr-social {
+        display: inline-block;
+        width: auto;
+        margin: 0
+    }
+
+    footer .ftr-top .ftr-social>span {
+        display: inline-block
+    }
+
+    footer .ftr-top .ftr-social li {
+        width: auto;
+        margin: 0 0 0 15px
+    }
+}
